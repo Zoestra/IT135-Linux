@@ -1,3 +1,7 @@
+Zoestra Hammer
+IT135 SU25
+
+
 1. When UNIX was re-written in the C language, what was the advantage?
 	- Greater portability between chipsets
 2. What option does the author recommend for Windows users who wish to learn Unix/Linux?
