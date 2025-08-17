@@ -18,14 +18,24 @@
 9. [Critical Thinking] What does nano do if we run the command followed by a file that does not yet exist? For example using the command: `nano test.txt`
 	- it opens a buffer which we can edit, but if we dont save the file, we lose it. you're editing the file before it exists.
 10. What command does the author use to show the current directory?
-	- ls
+	- `ls`
 11. What is the purpose of what the author calls the dot files?
+	- dotfiles are hidden file used for configuration.
 12. What command does the author use to get to the parent directory?
+	- `cd ..`
 13. Why does the author recommend using only lower case letters when naming files in Unix?
+	- paths are case sensitive, so using a consistent style helps with finding things
 14. Why does the author recommend using underscore instead of a space when naming files?
+	- if a path has a space in it, you have to surround the path with quotes to call it correctly, as spaces are usually used to delimit different arguments of a command
 15. What command allows us to view the contents of a file and scroll both down and up in a large document?
+	- `less <filepath>`
 16. When creating directories one within the other, what switch does the author add to the mkdir command?
+	- `mkdir -p` 
 17. When using the mv command to move files, what is the purpose of the switch -i?
+	- interactive mode, it prompts you before overwriting
 18. When copying a directory, what switch do we add so the entire contents of all sub-directories are copied as well?
+	- `cp -r`
 19. What does rm -R do when the target is a directory?
+	- deletes everything in the working directory, and everything in the subfolders
 20. How is a symlink different than a shortcut or alias?
+	- it references a path, not a file, meaning that if the file moves, the symlink breaks.
