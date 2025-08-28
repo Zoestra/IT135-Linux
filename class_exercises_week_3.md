@@ -15,3 +15,17 @@
 	- `history > history.txt`
 8. View the contents of your saved history file.  
 	- `cat history.txt`
+9. Run a JavaScript file using the system’s built-in JavaScript engine.  
+	- `qjs hello.js`
+10. Compile and run a C program from source code.
+	- in codespace
+		- `gcc hello.c -o hello`
+	- in normal use
+		- `make`
+11. make nested directories
+	- `mkdir -p a/b/c`
+12. remove nested directories
+	- `rm -r a/`
+	- or for interactive prompt
+		- `rm -ri a/b/c`
+		
