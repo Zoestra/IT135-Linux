@@ -1,3 +1,6 @@
 [submodule "linux-web"]
 	path = linux-web
 	url = https://github.com/Zoestra/linux-web
+[submodule "docker-lab"]
+	path = docker-lab
+	url = https://github.com/Zoestra/docker-lab
