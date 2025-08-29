@@ -1,0 +1,3 @@
+[submodule "linux-web"]
+	path = linux-web
+	url = https://github.com/Zoestra/linux-web
